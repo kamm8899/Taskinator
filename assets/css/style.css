@@ -38,6 +38,12 @@ li {
   font-size: 1.6rem;
 }
 
+/*added main to fix styling*/
+main{
+  display:flex;
+  margin: 0px 0px 50px 20px;
+}
+
 form {
   display: flex;
   align-items: flex-end;
@@ -227,6 +233,18 @@ footer {
 
   .task-list-wrapper {
     flex-basis: 100%;
+    /*added flex direction to fix styling*/
+    flex-direction: column;
+  }
+  /*added main to fix styling*/
+  main{
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  /*added section to fix styling*/
+  section{
+    flex-basis: 100%;
+    padding:15px;
   }
 
 }
